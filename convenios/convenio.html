@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+	<html lang="es" class="no-js">
+	<head>
+		<!-- Mobile Specific Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- Favicon-->
+		<link rel="shortcut icon" href="img/favicon.png">
+		<!-- Author Meta -->
+		<meta name="author" content="RosselTech">
+		<!-- Meta Description -->
+		<meta name="description" content="">
+		<!-- Meta Keyword -->
+		<meta name="keywords" content="">
+		<!-- meta character set -->
+		<meta charset="UTF-8">
+		<!-- Site Title -->
+		<title>Convenios</title>
+
+		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet"> 
+			<!-- CSS ============================================= -->
+			<link rel="stylesheet" href="css/linearicons.css">
+			<link rel="stylesheet" href="css/font-awesome.min.css">
+			<link rel="stylesheet" href="css/bootstrap.css">
+			<link rel="stylesheet" href="css/magnific-popup.css">
+			<link rel="stylesheet" href="css/animate.min.css">
+			<link rel="stylesheet" href="css/owl.carousel.css"> 
+			<link rel="stylesheet" href="css/main.css">
+			<link rel="stylesheet" href="css/nice-select.css">	
+		</head>
+		<body>
+			<div class="container">
+			  <a class="navbar-brand" href="index.html">
+			    <button class="primary-btn mt-10">iLeniaSoft<span class="lnr lnr-arrow-right"></span></button>
+			  </a>
+			</div>  
+
+			<!-- start contact Area -->		
+			<section class="contact-area section-gap" id="contact">
+				<div class="container">
+					<div class="row d-flex justify-content-center">
+						<div class="menu-content pb-60 col-lg-6">
+							<div class="title text-center">
+								<h2 class="mb-10">Convenios de Servicios</h2>
+								<p>Te ayudamos con tu ecosistema tecnológico.</p>
+								<br>
+								<h5>Selecciona Tipo de Convenio</h5>
+								<br>
+								<form class="form-area " id="tipoconvForm" name="tipoconvForm" action="../jsp/convenios/convenio.jsp" method="post" class="contact-form text-right">
+									<div class="form-select" id="default-select"">
+										<select id="conveniotipo" name="conveniotipo">
+											<!-- <option value="PROVEEDOR">PROVEEDOR</option> -->
+											<option value="INSTITUCIONAL GUBERNAMENTAL">INSTITUCIONAL GUBERNAMENTAL</option>
+											<option value="INSTITUCIONAL BANCARIO">INSTITUCIONAL BANCARIO</option>
+											<option value="COMERCIAL S. A.">COMERCIAL S. A.</option>
+											<option value="COMERCIAL LTDA">COMERCIAL LTDA</option>
+											<!-- <option value="CLIENTE">CLIENTE</option> -->
+										</select>
+									</div>
+									<br>
+									<div>
+										<input id="razonconvenio" name="razonconvenio" placeholder="Razón Social o Institución asociado al Convenio" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Razón Social o Institución'" class="common-input mb-10 form-control" required="" type="text">
+									</div>
+									<button class="primary-btn mt-10">REGISTRA CONVENIO<span class="lnr lnr-arrow-right"></span></button>
+								</form>
+								<br>
+							</div>
+						</div>				
+					</div>							
+				</div>	
+			</section>
+			<!-- end contact Area -->		
+	
+			<!-- start footer Area -->		
+			<footer class="footer-area section-gap">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-5 col-md-6 col-sm-6">
+							<div class="single-footer-widget">
+								<h6>Somos</h6>
+								<p>
+									Profesionales de la comunicación visual y las Tecnologías de la Informaci&oacute;n.
+								</p>
+								<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+			            		<p class="footer-text">Copyright &copy;<script>document.write(new Date().getFullYear());</script> todos los derechos reservados | construido con Bootstrap4 <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="http://rossseltech.cl" target="_blank">RosselTech</a></p>
+			            		<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+							</div>
+						</div>
+						<div class="col-lg-5  col-md-6 col-sm-6">
+							<div class="single-footer-widget">
+								<h6>Newsletter</h6>
+								<p>Mant&eacute;ngase actualizado con nuestra última</p>
+									<div class="" id="mc_embed_signup">
+										<form id ="form" name="form" action="jsp/registro.jsp" method="post">
+											<div class="d-flex flex-row">
+		
+												<input class="form-control" id="EMAIL" name="EMAIL" placeholder="Ingresa tu Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Ingresa tu Email '" required="" type="email">
+		
+					                            	<button class="click-btn btn btn-default"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></button>
+					                            	<div style="position: absolute; left: -5000px;">
+														<input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+													</div>
+											</div>		
+										<div class="info"></div>
+										</form>
+									</div>
+								</div>
+						</div>						
+						<div class="col-lg-2 col-md-6 col-sm-6 social-widget">
+							<div class="single-footer-widget">
+								<h6>Siguenos en</h6>
+								<p>RRSS</p>
+								<div class="footer-social d-flex align-items-center">
+									<a href="https://web.facebook.com/acuarelasRosselHerrera/"><i class="fa fa-facebook"></i></a>
+									<a href="https://twitter.com/"><i class="fa fa-twitter"></i></a>
+								</div>
+							</div>
+						</div>							
+					</div>
+				</div>
+			</footer>	
+			<!-- End footer Area -->			
+
+			<script src="js/vendor/jquery-2.2.4.min.js"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+			<script src="js/vendor/bootstrap.min.js"></script>
+			<script src="js/jquery.ajaxchimp.min.js"></script>
+			<script src="js/jquery.magnific-popup.min.js"></script>	
+			<script src="js/owl.carousel.min.js"></script>			
+			<script src="js/jquery.sticky.js"></script>
+			<script src="js/slick.js"></script>
+			<script src="js/jquery.counterup.min.js"></script>
+			<script src="js/waypoints.min.js"></script>		
+			<script src="js/main.js"></script>
+			<script src="js/jquery.nice-select.min.js"></script>
+		</body>
+</html>
